@@ -1,11 +1,9 @@
 <template name="gestione">
-	<section class="middle-app black">
-	    <a class="button" href="index.html">ritorno</a>
-	</section>
+	{{>return}}
 	<section class="bottom-app">
 		<h1>Gestione Servizi</h1>
 		<p>
-			Stai per disattivare il servizio mobibom.net. <br> Per confermare la tua disattivazione clicca <a href="cancel-ok.html">qui.</a>
+			Stai per disattivare il servizio mobibom.net. <br> Per confermare la tua disattivazione clicca <a href="{{pathFor route='cancelOk'}}">qui.</a>
 		</p>
 	</section>
 </template>
